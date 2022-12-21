@@ -25,7 +25,7 @@ class Card:
 
 class Deck:
     def __init__(self):
-        """Initializes the Deck with 52 cards."""
+        """Initializes the Deck with 52 cards. sf"""
         self.cards = []
         for suit in range(4):
             for rank in range(13):
