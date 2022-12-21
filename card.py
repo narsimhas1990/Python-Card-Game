@@ -13,8 +13,8 @@ class Card:
 
     def __str__(self):
         """Returns a human-readable string representation. """
-        return '%s %s' % (Card.suits[self.suit], Card.ranks[self.rank])
-        # return '%s of %s' % (Card.rank_names[self.rank], Card.suit_names[self.suit])
+       # return '%s %s' % (Card.suits[self.suit], Card.ranks[self.rank])
+         return '%s of %s' % (Card.rank_names[self.rank], Card.suit_names[self.suit])
 
     def __lt__(self, other):
         """Overriding < operator """
