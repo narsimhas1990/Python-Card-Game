@@ -22,7 +22,7 @@ class Card:
         t2 = other.rank, other.suit
         return t1 < t2
 
-
+///
 class Deck:
     def __init__(self):
         """Initializes the Deck with 52 cards. sf"""
